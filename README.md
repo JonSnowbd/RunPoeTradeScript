@@ -1,11 +1,11 @@
 ## What is this
 
-A very simple auto launch gui that will launch TradeMacro when PathOfExile is on. And kill every AHK instance when it sees
+A very simple gui that will launch TradeMacro when PathOfExile is on. And kill every AHK instance when it sees
 Path of Exile is no longer open.
 
 # How to use
 
-Download it from [here](http://x.com) or build it yourself.
+Download it from [here](https://raw.githubusercontent.com/JonSnowbd/RunPoeTradeScript/master/dist/StartPoETrade.exe) or build it yourself.
 
 After you have downloaded it just [place it in your TradeMacro folder](https://i.imgur.com/wjH1knL.png), next to `Run_TradeMacro.ahk`.
 
@@ -21,7 +21,7 @@ No sensitive information is relevant in any of the code. Detection of POE is a s
 hook into the Process. In theory this is completely fine. I am not responsible for any harm done while this
 script is running.
 
-The code is very simple and about 40 LOC, all of it [found here](http://x.com)
+The code is very simple and about 40 LOC, all of it [found here](https://github.com/JonSnowbd/RunPoeTradeScript/blob/master/Finder.cs)
 
 ## Gotchas
 
