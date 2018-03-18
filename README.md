@@ -13,15 +13,13 @@ And you're done! Just make sure you run the provided .exe instead of double clic
 
 ## Security
 
-https://www.virustotal.com/#/file/6a20a87cab1774b3104d5a3055b7495e53ef2338d7cf3fec7095f4dd148bacdc/detection
+https://www.virustotal.com/#/file/c7591a02dcd63304d3fc4171b75e7acac81bf80aa9d6584846c224ddddabaa4b/detection
 
 Feel free to run the virustotal yourself as well to confirm
 
 No sensitive information is relevant in any of the code. Detection of POE is a simple poll that does not
 hook into the Process. In theory this is completely fine. I am not responsible for any harm done while this
 script is running.
-
-The code is very simple and about 40 LOC, all of it [found here](https://github.com/JonSnowbd/RunPoeTradeScript/blob/master/Finder.cs)
 
 ## Gotchas
 
