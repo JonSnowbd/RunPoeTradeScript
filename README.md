@@ -5,7 +5,7 @@ Path of Exile is no longer open.
 
 # How to use
 
-Download it from [here](https://raw.githubusercontent.com/JonSnowbd/RunPoeTradeScript/master/dist/StartPoETrade.exe) or build it yourself.
+Download it from [here](https://raw.githubusercontent.com/JonSnowbd/RunPoeTradeScript/master/dist/RunPoeTradeScript.exe) or build it yourself.
 
 After you have downloaded it just [place it in your TradeMacro folder](https://i.imgur.com/wjH1knL.png), next to `Run_TradeMacro.ahk`.
 
