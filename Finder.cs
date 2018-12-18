@@ -94,5 +94,10 @@ namespace BlueholeSucks
         {
             MinimizeToTray();
         }
+
+        private void StatusMessage_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

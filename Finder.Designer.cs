@@ -52,6 +52,7 @@
             this.StatusMessage.Size = new System.Drawing.Size(255, 24);
             this.StatusMessage.TabIndex = 0;
             this.StatusMessage.Text = "Looking for Path of Exile...";
+            this.StatusMessage.Click += new System.EventHandler(this.StatusMessage_Click);
             // 
             // RetryButton
             // 
@@ -99,7 +100,7 @@
             this.HideOnSuccessTick,
             this.HideGUIButton});
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
-            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.optionsToolStripMenuItem.Text = "Options";
             // 
             // HideOnSuccessTick

@@ -45,11 +45,15 @@ namespace BlueholeSucks
         // Returns true if Path of Exile is open.
         private bool PathofExileIsPresent()
         {
-            Process[] L = Process.GetProcessesByName("PathOfExile");
-            if (L.Length == 0)
-                return false;
-            else
-                return true;
+            var Processes = Process.GetProcesses();
+            foreach(Process p in Processes)
+            {
+                if (p.ProcessName.Contains("PathOfExile"))
+                {
+                    return true;
+                }
+            }
+            return false;
         }
         private void MinimizeToTray()
         {
